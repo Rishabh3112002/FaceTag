@@ -27,7 +27,7 @@ function Navbar() {
           </a>
         </li>
         <li className="nav-item1">
-          <a href="https://rishabhkathiravan.pythonanywhere.com/" target="_blank" className="nav-link1">
+          <a href="https://github.com/Rishabh3112002/FaceTag" target="_blank" className="nav-link1">
             Code
           </a>
         </li>
