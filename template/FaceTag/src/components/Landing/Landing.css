@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+.landing {
+  height: 100vh; 
+  width: 100vw;
+  background-color: #013328; 
+  color: #E3DCD2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.name {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6vw;
+  margin-bottom: 0px;
+  z-index: 2;
+  text-align: center;
+}
+
+.position {
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.4vw;
+  margin-top: 0px;
+  z-index: 2;
+  text-align: center;
+}
+
+.desc {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10%;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  text-align: justify;
+}
+
+.about {
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5vw;
+  margin-top: 0px;
+}
+
+.button-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10%;
+}
+
+.nav-button {
+  width: 100%;
+  padding: 10px;
+  font-family: "Judson", serif;
+  font-size: 1.1vw;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #100C0D;
+  background-color: #E3DCD2;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(227, 220, 210, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.nav-button:hover {
+  background-color: #CC8B65;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .name {
+    font-size: 8vw;
+  }
+  
+  .position {
+    font-size: 3vw;
+  }
+  
+  .about {
+    font-size: 2vw;
+  }
+  
+  .nav-button {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .desc {
+    flex-direction: column;
+    row-gap: 10%;
+  }
+
+  .name {
+    font-size: 10vw;
+  }
+
+  .position {
+    font-size: 4vw;
+  }
+
+  .about {
+    font-size: 3vw;
+  }
+
+  .button-container {
+    flex-direction: column;
+    row-gap: 20px;
+    width: 100%;
+  }
+
+  .nav-button {
+    font-size: 2vw;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .name {
+    font-size: 12vw;
+  }
+
+  .position {
+    font-size: 5vw;
+  }
+
+  .about {
+    font-size: 4vw;
+  }
+
+  .nav-button {
+    font-size: 3vw;
+  }
+}

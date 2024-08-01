@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+.navbar1 {
+  background-color: #013328;
+  position: fixed;
+  height: 8vh;
+  top: 0;
+  left: 0;
+  padding: 0 15px;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav1 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.image-logo {
+  margin-left: 1%;
+}
+
+.nav-item-first1 {
+  margin-left: 1%;
+}
+
+.nav-item1 {
+  margin-left: 5%;
+}
+
+.nav-link1 {
+  color: #E3DCD2;
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5vw;
+  text-decoration: none;
+  transition: color 500ms, text-decoration 500ms;
+}
+
+.nav-link1:hover {
+  color: #CC8B65;
+  text-decoration: underline solid #CC8B65;
+}
+
+.nav-logo {
+  height: 5vh; /* Use viewport height to make it responsive */
+  width: auto; /* Maintain aspect ratio */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar1 {
+    height: auto;
+    padding: 10px;
+  }
+
+  .nav-link1 {
+    font-size: 4vw;
+  }
+
+  .nav-item1, .nav-item-first1 {
+    margin-left: 3%;
+  }
+
+  .nav-logo {
+    height: 4vh; /* Adjust the height for smaller screens */
+  }
+}

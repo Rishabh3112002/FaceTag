@@ -1,0 +1,7 @@
+.home-page-main {
+  width: 100% !important;
+  height: 100vh;
+  background-color: white;
+  color: #E3DCD2;
+  transition-duration: 5s;
+}

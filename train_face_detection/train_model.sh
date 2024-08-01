@@ -1,0 +1,1 @@
+python train.py --train_file /Users/rishabh/Developer/VSCode/voice-recognition/dataset/train.json --valid_file /Users/rishabh/Developer/VSCode/voice-recognition/dataset/test.json --save_model_path ./models --epochs 50 --batch_size 8 --learning_rate 1e-4

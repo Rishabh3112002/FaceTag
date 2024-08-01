@@ -1,0 +1,5 @@
+names:
+- face
+nc: 1
+train: /Users/rishabh/Developer/VSCode/face-recognition/train_face_detection/data/dataset/images/val
+val: /Users/rishabh/Developer/VSCode/face-recognition/train_face_detection/data/dataset/images/val
