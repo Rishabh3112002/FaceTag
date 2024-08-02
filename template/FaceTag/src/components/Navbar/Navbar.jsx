@@ -8,7 +8,7 @@ function Navbar() {
       <ul className="navbar-nav1">
       <li className="nav-item-first1">
         <a href="/" className="logo">
-          <img src="/src/assets/logo.png" alt="Logo" className="nav-logo" />
+          <img src="https://i.ibb.co/LNrY4r7/logo.png" alt="Logo" className="nav-logo" />
         </a>
         </li>
         <li className="nav-item1">
